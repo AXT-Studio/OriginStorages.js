@@ -15,5 +15,6 @@
         "node_modules",
         ".editorconfig"
     ],
+    "license": "MIT",
     "exports": "./src/module.mjs"
 }
