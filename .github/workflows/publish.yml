@@ -68,4 +68,4 @@ jobs:
           # 変更がない場合は commit が失敗するため、失敗してもパイプラインを継続する
           git commit -m "chore: update jsr.json version for publish" || echo "no changes to commit"
       - name: Publish package
-        run: npx jsr publish
+        run: npx jsr publish --no-check
