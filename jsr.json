@@ -1,0 +1,21 @@
+{
+    "name": "@ayaexptech/origin-storages-js",
+    "version": "0.0.0",
+    "include": [
+        "declares",
+        "src",
+        "README.md",
+        "LICENSE"
+    ],
+    "exclude": [
+        "tests",
+        ".github",
+        ".gitignore",
+        ".git",
+        "node_modules",
+        ".editorconfig"
+    ],
+    "exports": {
+        ".": "./src/module.mjs"
+    }
+}
